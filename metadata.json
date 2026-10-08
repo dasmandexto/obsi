@@ -1,0 +1,6 @@
+{
+  "name": "Obsidian VaultBridge - Free Self-Hosted Vault Sync",
+  "description": "Free, private, and self-hosted cross-device vault synchronization for Obsidian with WebDAV protocol, End-to-End Encryption, visual conflict resolution, version history, and interactive knowledge graph.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

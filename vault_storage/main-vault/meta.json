@@ -1,0 +1,68 @@
+{
+  "id": "main-vault",
+  "name": "Personal Knowledge Base",
+  "description": "Synced Obsidian Vault with WebDAV and E2EE support",
+  "createdAt": 1790919609483,
+  "updatedAt": 1790919609483,
+  "secretToken": "vb_320fa3d8af23c27cdaf63ac8",
+  "e2eeEnabled": false,
+  "devices": [
+    {
+      "id": "web-client",
+      "name": "VaultBridge Web Client",
+      "platform": "web",
+      "lastSeen": 1790919609483
+    },
+    {
+      "id": "d9ca705f-1aff-4b0b-8074-1d385305b986",
+      "name": "Obsidian Desktop",
+      "platform": "windows",
+      "lastSeen": 1790919791908,
+      "userAgent": "curl/7.88.1",
+      "ip": "127.0.0.1"
+    }
+  ],
+  "history": [
+    {
+      "id": "82abe880-e111-4d08-9056-475fc3ad71fc",
+      "path": "Welcome to VaultBridge.md",
+      "content": "# Welcome to VaultBridge 🚀\n\n**VaultBridge** is your 100% free, private, self-hosted synchronization hub for Obsidian vaults.\n\nYou no longer need to pay $4-$10/month for Obsidian Sync. With VaultBridge, you maintain **total data ownership**, instantaneous sync across devices, visual conflict resolution, and full WebDAV compatibility!\n\n## ✨ Key Capabilities\n- 📱 **Cross-Device Sync**: Works seamlessly with Obsidian on macOS, Windows, Linux, iOS (iPhone/iPad), and Android.\n- 🔒 **End-to-End Encryption (E2EE)**: Optional AES-256 client-side encryption. Nobody can read your notes without your master passphrase.\n- 🌐 **Standard WebDAV**: Direct connection via the popular, free **Remotely Save** plugin.\n- 🕸️ **Interactive Knowledge Graph**: Live 2D force-directed map of all your `[[wikilinks]]` and notes.\n- ⚡ **Realtime Live Sync**: Instant file change broadcasting via Server-Sent Events.\n- 🕒 **Version History & Visual Diffs**: Restore previous note snapshots or resolve edits visually without losing a single word.\n- 📦 **One-Click Backup & Export**: Download your entire vault as a clean `.zip` archive at any time.\n\n## 🔗 Connected Notes\n- Check the setup manual: [[Setup Guide/Connect Obsidian Desktop]]\n- Connect your phone or tablet: [[Setup Guide/Connect Obsidian Mobile]]\n- See today's sample log: [[Daily Notes/2026-10-01]]\n- Learn about graph linking: [[Ideas/Second Brain Architecture]]\n\n#obsidian #vault-sync #productivity #self-hosted #pkm\n",
+      "timestamp": 1790919609484,
+      "author": "System Initializer",
+      "size": 1485
+    },
+    {
+      "id": "71b102af-284f-44e8-8cad-b79b1e743e7d",
+      "path": "Setup Guide/Connect Obsidian Desktop.md",
+      "content": "# Connecting Obsidian Desktop (Mac, Windows, Linux)\n\nFollow these simple 4 steps to sync your desktop Obsidian for free:\n\n### Step 1: Install Remotely Save\n1. In Obsidian, go to **Settings** (⚙️) -> **Community Plugins**.\n2. Make sure Restricted Mode is **OFF**.\n3. Click **Browse** and search for `Remotely Save` (created by fyears).\n4. Click **Install**, then **Enable**.\n\n### Step 2: Configure WebDAV\n1. In Obsidian Settings, scroll down to **Remotely Save** in the sidebar.\n2. Choose **Sync Service**: Select `Webdav`.\n3. In **Server Address**, enter your VaultBridge WebDAV URL:\n   ```\n   <YOUR_APP_URL>/webdav/main-vault/\n   ```\n4. In **Username**, enter any name (e.g. `obsidian`).\n5. In **Password**, enter your Vault token (shown in the VaultBridge Connection dialog).\n\n### Step 3: Trigger Sync\n1. Click the Sync icon (circular arrows) on the left ribbon or press `Ctrl+P` (or `Cmd+P`) and type `Remotely Save: Sync`.\n2. All notes and folders will immediately synchronize!\n\n### Step 4: Auto Sync (Optional)\n- Enable \"Sync automatically every 1 minute\" or \"Sync on Obsidian startup\" in Remotely Save settings.\n\n#setup #desktop #remotely-save #tutorial\n",
+      "timestamp": 1790919609484,
+      "author": "System Initializer",
+      "size": 1164
+    },
+    {
+      "id": "14dd8a2a-6421-4948-bffb-8e19476e38e1",
+      "path": "Setup Guide/Connect Obsidian Mobile.md",
+      "content": "# Connecting Obsidian Mobile (iOS & Android)\n\nSyncing your iPhone, iPad, or Android phone is completely free and takes 2 minutes!\n\n### Mobile Setup Instructions:\n1. Open the Obsidian app on your mobile device.\n2. Create an empty vault (e.g. `My Brain`).\n3. Tap the Settings gear icon -> **Community Plugins** -> turn off restricted mode.\n4. Search for and install **Remotely Save**.\n5. Under Remotely Save settings:\n   - Select **Webdav**\n   - Paste Server URL: `<YOUR_APP_URL>/webdav/main-vault/`\n   - Paste your VaultBridge Secret Token\n6. Tap **Sync Now**!\n\n### Pro Tip:\nIn VaultBridge web interface, click **Connect Obsidian** -> scan the QR code to auto-copy the URL on mobile!\n\n#mobile #ios #android #sync\n",
+      "timestamp": 1790919609484,
+      "author": "System Initializer",
+      "size": 712
+    },
+    {
+      "id": "2ade0350-42ba-4ffc-8d57-c869b07e4c6f",
+      "path": "Daily Notes/2026-10-01.md",
+      "content": "# Daily Note — Thursday, Oct 1, 2026\n\n### 🎯 Primary Objectives\n- [x] Set up free self-hosted vault sync with [[Welcome to VaultBridge]]\n- [x] Configure desktop Remotely Save sync\n- [ ] Connect mobile iPhone vault via [[Setup Guide/Connect Obsidian Mobile]]\n- [ ] Review [[Ideas/Second Brain Architecture]] and link new project ideas\n\n### 💡 Fleeting Thoughts\nThe combination of local-first markdown with WebDAV synchronization gives the best of both worlds: zero lock-in, lightning fast local editing, and cloud availability without monthly recurring fees.\n\n### 📊 Sync Status\nSync bridge active. All nodes synced.\n\n#daily-note #journal #october-2026\n",
+      "timestamp": 1790919609484,
+      "author": "System Initializer",
+      "size": 660
+    },
+    {
+      "id": "0606320d-0a07-4811-ae44-6f0543ad1627",
+      "path": "Ideas/Second Brain Architecture.md",
+      "content": "# Second Brain Architecture\n\nBuilding a Personal Knowledge Management (PKM) system requires low friction and reliable sync.\n\n### Core Principles\n1. **Local Markdown Files**: Plain text files with `.md` extension never become obsolete.\n2. **Associative Linking**: Using `[[Note Name]]` builds an organic neural graph rather than rigid hierarchical folders.\n3. **Continuous Capture**: Capture ideas rapidly on mobile, then process them on desktop. See [[Daily Notes/2026-10-01]].\n4. **Zero Cloud Lock-in**: Powered by [[Welcome to VaultBridge]].\n\n### Topics to Explore\n- Zettelkasten slip-box technique\n- Progressive summarization\n- Daily journaling rhythm\n\n#pkm #second-brain #philosophy #knowledge-management\n",
+      "timestamp": 1790919609484,
+      "author": "System Initializer",
+      "size": 709
+    }
+  ],
+  "conflicts": []
+}
